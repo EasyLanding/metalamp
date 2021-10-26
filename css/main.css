@@ -1,0 +1,103 @@
+#main_service{
+    display:flex;
+    height: 1255px;
+    width:100vw;
+    background-color: #F4F4F6;
+}
+#main_info{
+    width:30vw;
+    border:1px solid black;
+}
+#main_content{
+    display:flexbox;
+    flex-flow: row wrap;
+    width:70vw;
+    border:1px solid black;
+}
+#main_content_textTitle{
+    margin-left: 40px;
+}
+#main_content_textTitle_content{
+    width:500px;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+#main_content_box_conteiner{
+    display:flex;
+    flex-flow: row wrap;
+}
+.main_content_box{
+    width:230px;
+    height:217px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.main_content_box_background{
+    display:block;
+    background-image: url(image/hotelNumber/MaskGroup.png);
+    width:230px;
+    height:111.38px;
+}
+.main_content_box_background_arrow_conteiner{
+    display:inline-block;
+    width:230px;
+    height:30px;
+    margin-top: 45px;
+}
+.main_content_box_background_leftArrow{
+    width:24px;
+    height:24px;
+}
+.main_content_box_background_rightArrow{
+    width:24px;
+    height:24px;
+    
+}
+.main_content_box_background_Ellipse_conteiner{
+    display:flex;
+    height:20px;
+    margin-top: 20px;
+    justify-content: right;
+}
+#main_content_box_info_img{
+    display:flex;
+    width:230px;
+    height:35px;
+    border-top: 1px solid grey;
+    align-items: center;
+    padding-top: 5px;
+}
+#main_content_stringHotel_conteiner{
+    height:150px;
+    display:block;
+    width:100vw;
+
+}
+#main_content_stringHotel{
+    display:flex;
+    height:40px;
+    width:55vw;
+    justify-content: center;
+    align-content: center;
+}
+.main_content_stringHotel_img{
+    width:40px;
+    height:40px;
+    font-size:12px;
+    text-align:center;
+    line-height: 40px;
+}
+.main_content_stringHotel_img_arr{
+    background-image: url(image/hotel_img_string/Rectangle\ 2.png);
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    padding: auto;
+}
+
+#main_content_stringHotel_text{
+    display:block;
+    width:55vw;
+    text-align: center;
+}
