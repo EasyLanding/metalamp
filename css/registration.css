@@ -1,0 +1,14 @@
+#content_conteiner {
+    height:656px;
+    width:1440px;
+    margin:auto;
+    background-image: url(image/roomDetails/registration.png);
+}
+#content_conteiner_title_form{
+    width:380px;
+    height:646px;
+    background-color: aliceblue;
+    margin:auto;
+    display:block;
+    
+}
