@@ -1,0 +1,135 @@
+#backgroundConteiner{
+    display:flex;
+    width: 1440px;
+    margin: 0px auto;
+}
+#backgroundLeft{
+    width:980px;
+    height:485px;
+    background-image: url(image/roomDetails/image.png);
+    z-index: 100;
+}
+#backgroundRightConteiner{
+    width:500px;
+    height:485px;
+    display:block;
+    padding:0%;
+    margin-right: 0%;
+}
+#backgroundRightTop{
+    background-image: url(image/roomDetails/image\ 2.png);
+    width:460px;
+    height:243px;
+}
+#backgroundRightBottom{
+    background-image: url(image/roomDetails/image\ 3.png);
+    z-index: 99;
+    width:460px;
+    height:242px;
+}
+#roomDetails_content{
+    height:1009px;
+    width:100vw;
+    background-color: #ffffff;
+    margin-top: 80px;
+}
+#roomDetails_content_conteiner{
+    margin-left: 100px;
+    display:flex;
+}
+#roomDetails_content_left{
+    display:flex;
+    width:600px;
+}
+#roomDetails_content_info-number_diagram_comfort{
+    display:flex;
+}
+.roomDetails_content_info-number__conteiner{
+    display:flex;
+    height:78px;
+    align-items: center;
+    width:241px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border-bottom: 1px black solid;
+}
+.roomDetails_content_info-number__conteiner1{
+    display:flex;
+    height:78px;
+    align-items: center;
+    width:230px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border-bottom: 1px black solid;
+}
+.roomDetails_content_info-number__conteiner2{
+    display:flex;
+    height:78px;
+    align-items: center;
+    width:241px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+#roomDetails_content_diagram h3{
+    margin-left: 100px;
+}
+#roomDetails_content_diagram_conteiner{
+    display:flex;
+    align-items: flex-end;
+    width:311px;
+    height: 126px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#roomDetails_content_diagram_conteiner-sp{
+    line-height: 1.8;
+}
+.content_diagram{
+    list-style-image: url(image/roomDetails/Ellipse.png);
+}
+.content_diagram1{
+    list-style-image: url(image/roomDetails/Ellipse1.png);
+}
+.content_diagram2{
+    list-style-image: url(image/roomDetails/Ellipse3.png);
+}
+.content_diagram3{
+    list-style-image: url(image/roomDetails/Ellipse4.png);
+}
+#roomDetails_content_impressions-number-h{
+    display:flex;
+}
+#roomDetails_content_impressions-number-h p{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.roomDetails_content_impressions-number_text{
+    display: flex;
+    width:500px;
+}
+.roomDetails_content_impressions-number_text1{
+    display:flex;
+    width:700px;
+}
+.roomDetails_content_impressions-number_text1 p{
+    margin-left:20px;
+}
+.img_mini{
+    margin-top:15px;
+    width:39,72px;
+    height:20px;
+}
+#roomDetails_content_rules{
+    display:flex;
+    margin-top:50px;
+}
+#roomDetails_content_rules_right{
+    margin-left: 80px;
+}
+#roomDetails_content_right_form{
+    width:380px;
+    height:512px;
+    border:1px solid black;
+    margin-left: 300px;
+}
