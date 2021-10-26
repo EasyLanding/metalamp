@@ -1,0 +1,177 @@
+/*Шапка*/
+#header {
+    width: 1300px;
+    height:70px;
+    background-color: #FFFFFF;
+}
+#header_content{
+    display: flex;
+    justify-content:right;
+    align-items:center;
+}
+#header_conteiner{
+    width: 700px;
+}
+#blank_box{
+    width:380px;
+}
+#header_logo{
+    display: flex;
+    width:50px;
+    align-items:center;
+}
+.img_logo{
+    width:48px;
+    height:48px;
+}
+.img_toxin{
+    width:53.19px;
+    height:12.95px;
+    margin-left: 10px;
+}
+#button_register{
+    width:196px;
+    height:34px;
+    background-color: #BC9CFF;
+    border-radius: 22px;
+    border-color:#BC9CFF;
+}
+#button_add{
+    width:87px;
+    height:34px;
+    border-radius: 22px;
+    border-color:#BC9CFF;
+    background-color: white;
+}
+.header_content{
+    font-size: 14px;
+}
+/*Первый экран*/
+#first_title{
+    background-image: url(image/title/image\ 3.png);
+    width:100vw;
+    height:900px;
+    display:flex;
+    z-index:10;
+}
+#first_title_form{
+    background-color: white;
+    z-index:101;
+    width:380px;
+    height:374px;
+    margin-left: 140px;
+    display:block;
+    margin-top: 80px;
+}
+.first_title_text{
+    display:block;
+    height:59px;
+    width:320px;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#first_title_blank{
+    height:900px;
+    width:300px;
+}
+#first_title_text_bottom{
+    height: 48px;
+    width:297px;
+    align-self: end;
+    margin-bottom: 60px;
+    font-size: 16px;
+    text-align: right;
+}
+/*Footer*/
+#footer{
+    display:flex;
+    height:372px;
+    width: 1300px;
+    background-color: white;
+}
+#footer_logo{
+    margin-left:100px;
+    margin-top:100px;
+}
+#footer_logo_img{
+    display:flex;
+    align-items:center;
+}
+#footer_logo_text{
+    width:260px;
+    height:72px;
+    font-size:16px;
+    margin-top:15px;
+}
+#footer_navigation{
+    margin-left:20px;
+    margin-top:80px;
+    width:143px;
+    height:168px;
+}
+#footer_about{
+    margin-left:50px;
+    margin-top:80px;
+    width:143px;
+    height:168px;
+}
+#footer_support{
+    margin-left:50px;
+    margin-top:80px;
+    width:143px;
+    height:168px;
+}
+#footer_to_sign{
+    margin-left:50px;
+    margin-top:80px;
+    width:220px;
+    height:84px;
+}
+#footer_to_sign_text{
+    width:220px;
+    height:48px;
+    font-size:16px;
+}
+#footer_to_sign_form_input{
+    width:220px;
+    height:44px;
+    border-radius:4px;
+    border: solid 1px grey;
+    background-image: url(image/form/arrow_forward.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: right;
+    opacity: 50%;
+}
+#footer_copyright{
+    width:100vw;
+    height:70px;
+    border-top: 1px solid black;
+    margin-top:0px;
+}
+#footer_copyright_text{
+    display:flex;
+}
+#footer_copyright_text_child{
+    display:flex;
+    height:24px;
+}
+#footer_copyright_text_copy{
+    margin-left: 100px;
+    margin-top:28px;
+}
+#footer_copyright_img{
+    display:flex;
+    justify-content: right;
+}
+#footer_copyright_img_child{
+    width:130px;
+    display: flex;
+    margin-right: 80px;
+}
+.footer_copyright_img_social{
+    vertical-align: center;
+    height:24px;
+    width:24px;
+}
